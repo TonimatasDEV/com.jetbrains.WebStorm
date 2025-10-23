@@ -3,6 +3,8 @@ I want to use latest WebStorm version, but I don't want to be a Flathub maintain
 
 # Fixes
 - Issue [#111](https://github.com/flathub/com.jetbrains.WebStorm/issues/111)
+- Issue [#132](https://github.com/flathub/com.jetbrains.WebStorm/issues/132)
+- Issue [#136](https://github.com/flathub/com.jetbrains.WebStorm/issues/136)
 
 # How to install
 ```shell
