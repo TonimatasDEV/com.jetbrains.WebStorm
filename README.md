@@ -1,6 +1,9 @@
 # com.jetbrains.WebStorm
 I want to use latest WebStorm version, but I don't want to be a Flathub maintainer at the moment.
 
+# Fixes
+- Issue [#111](https://github.com/flathub/com.jetbrains.WebStorm/issues/111)
+
 # How to install
 ```shell
 flatpak remote-add --user --no-gpg-verify tonimatas https://flatpak.tonimatas.dev

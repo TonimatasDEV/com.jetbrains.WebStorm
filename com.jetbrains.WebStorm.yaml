@@ -90,9 +90,9 @@ modules:
   - name: wrapper
     buildsystem: meson
     config-opts:
-      - -Deditor_binary=/app/extra/webstorm/bin/webstorm.sh
+      - -Deditor_binary=/app/extra/webstorm/bin/webstorm
       - -Dprogram_name=webstorm
       - -Deditor_title=WebStorm
     sources:
       - type: dir
-        path: jetbrains-flatpak-wrapper
+        path: ide-flatpak-wrapper
