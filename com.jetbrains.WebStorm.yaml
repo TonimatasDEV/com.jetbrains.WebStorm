@@ -9,13 +9,19 @@ tags:
 finish-args:
   - --allow=devel
   - --device=all
-  - --env=IDEA_PROPERTIES=/app/bin/idea.properties
-  - --env=WEBSTORM_JDK=/app/extra/webstorm/jre64
+  - --env=IDEA_PROPERTIES=${FLATPAK_DEST}/bin/idea.properties
+  - --env=WEBSTORM_JDK=${FLATPAK_DEST}/webstorm/jbr/
   - --filesystem=home
-  - --filesystem=host
+  - --filesystem=xdg-run/docker
+  - --filesystem=xdg-run/gnupg
   - --filesystem=xdg-run/keyring
+  - --filesystem=xdg-run/pipewire-0
+  - --filesystem=xdg-run/podman
   - --share=ipc
   - --share=network
+  - --socket=gpg-agent
+  - --socket=pulseaudio
+  - --socket=ssh-auth
   - --socket=wayland
   - --socket=x11
   - --talk-name=org.freedesktop.Notifications
