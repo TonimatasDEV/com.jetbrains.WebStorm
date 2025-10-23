@@ -29,7 +29,7 @@
   </description>
   <url type="bugtracker">https://youtrack.jetbrains.com/</url>
   <url type="help">https://www.jetbrains.com/help/webstorm/</url>
-  <url type="homepage">http://www.jetbrains.com/webstorm/</url>
+  <url type="homepage">https://www.jetbrains.com/webstorm/</url>
   <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
   <developer_name>JetBrains s.r.o.</developer_name>
   <screenshots>
